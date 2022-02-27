@@ -1,0 +1,161 @@
+* {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 55px;
+}  
+
+.travelsite__header--primary {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.travelsite__header-text {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    padding: 10px 80px;
+    background-color: #FFFFFF;
+}
+
+.travelsite__title {
+    margin-right: auto;
+    font-weight: bold;
+    color: #335576;
+    font-size: 1.5rem;
+}
+
+.travelsite__header--logo {
+    color: #335576;
+    text-decoration: none;
+}
+
+.travelsite__header-spacing {
+    margin: 0 10px;
+}
+
+.travelsite__header-spacing--underlined {
+    margin: 0 10px;
+}
+
+.travelsite__header-textcolor {
+    color: black;
+    text-decoration: none;
+}
+
+.travelsite__footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 65px;
+}
+
+.travelsite__footer--hours {
+    display: flex;
+}
+
+.travelsite__footer--icons {
+    display: flex;
+    height: 30%;
+    width: auto;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.travelsite__footer--head {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:#335576;
+}
+
+.travelsite__footer--subhead {
+    font-size: 0.7rem;
+    font-weight: normal;
+    color:#DB7A4E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.travelsite__footer--text-time {
+    font-size: 1rem;
+    color:#335576;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.travelsite__footer--text {
+    font-size: 1rem;
+    color:#335576;
+    font-weight: bold;
+}
+
+.travelsite__recommendations--cards {
+    display: flex;
+    justify-content: center;
+} 
+
+.travelsite__cardstyle {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+}
+
+.travelsite__title--main {
+    color: white;
+    font-size: 4rem;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+
+.travelsite__background--hawaii {
+    background-image: url(../assets/hawaii.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+.travelsite__background--iceland {
+    background-image: url(../assets/iceland.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+.travelsite__background--greece {
+    background-image: url(../assets/greece.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+.travelsite__card--title {
+    font-size: 1.5rem;
+    border-bottom: solid 3px black;
+    width: 90%;
+    margin-left: 13px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.travelsite__card--text {
+    background-color:#FEFAF5;
+    font-size: 1.2rem;
+    margin: 20px 15px;
+    padding: 15px 
+}
+
+.travelsite__list-style {
+    list-style: none;
+}
